@@ -1,14 +1,8 @@
-
-.jumbotron {opacity:0.2;}
-
-opacityFader {
-  filter:alpha(opacity=90); /* IE */
-  -moz-opacity:0.9; /* Mozilla */
-  opacity: 0.9; /* CSS3 */
-  position: absolute;
-}
-
-
-
-
-
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "portfolio.scss";
+@import "contact.scss";
+@import "bootstrap-overrides.scss";
