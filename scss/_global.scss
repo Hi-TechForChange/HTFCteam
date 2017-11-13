@@ -92,6 +92,14 @@ section.success {
   }
 }
 
+.logosmall {
+    display : none;
+}
+@media only screen and (max-device-width:480px){
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+
 .scroll-top {
   position: fixed;
   z-index: 1049;
