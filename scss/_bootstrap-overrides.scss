@@ -41,3 +41,11 @@
 .btn:focus {
   outline: none;
 }
+.jumbotron {opacity:0.2;}
+
+.opacityFader {
+  filter:alpha(opacity=90); /* IE */
+  -moz-opacity:0.9; /* Mozilla */
+  opacity: 0.9; /* CSS3 */
+  position: absolute;
+}
